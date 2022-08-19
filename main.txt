@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+
+        double[] arr = {3.3, 4.7, 6.5, 7.5, 10.0};
+        double sum = 0;
+
+        for (double i:arr) {
+            sum += i;
+        }
+        System.out.println(sum);
+    }
+}
